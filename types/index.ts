@@ -102,7 +102,7 @@ export interface CreateRuleForm {
 // Meta Ads API configuration
 export const META_ADS_CONFIG = {
   baseUrl: 'https://dev-api.adcopy.ai/challenge-proxy/meta',
-  bearerToken: '7FcUS8sCTBDGE4EaScY5CEsIAoe9dTJLwIzV4gGM3BY7dz1',
+  bearerToken: process.env.META_ADS_BEARER_TOKEN || '',
   sampleCampaignId: '120225449479650554'
 } as const;
 

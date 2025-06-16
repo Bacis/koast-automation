@@ -2,11 +2,15 @@
 
 A comprehensive automation platform for managing Meta (Facebook) advertising campaigns with custom rule-based automation, real-time monitoring, and intelligent action execution.
 
-## 🎥 Demo Video
+## 🎥 Demo
 
+### 🌐 Live Demo
+**[🚀 Try the Live Application](https://koast-challenge.vercel.app/)** - Interactive demo deployed on Vercel with real campaign data and automation features.
+
+### 📹 Video Walkthrough
 [![Meta Ads Automation System Demo](https://img.youtube.com/vi/IhHgVlW-oLg/maxresdefault.jpg)](https://www.youtube.com/watch?v=IhHgVlW-oLg)
 
-**[🎬 Watch the Live Demo](https://www.youtube.com/watch?v=IhHgVlW-oLg)** - See the automation system in action with real campaign data and live rule execution.
+**[🎬 Watch the Presentation](https://www.youtube.com/watch?v=IhHgVlW-oLg)** - See the automation system in action with real campaign data and live rule execution.
 
 ## 🎯 Features
 

@@ -64,8 +64,9 @@ npm install
 Create a `.env.local` file in the project root:
 ```bash
 # Meta Ads API Configuration
-META_ADS_BEARER_TOKEN=7FcUS8sCTBDGE4EaScY5CEsIAoe9dTJLwIzV4gGM3BY7dz1
+META_ADS_BEARER_TOKEN=your_bearer_token_here
 ```
+> **Note**: Replace `your_bearer_token_here` with the actual bearer token provided for the challenge.
 
 3. **Start development server:**
 ```bash

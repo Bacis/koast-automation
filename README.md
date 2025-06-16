@@ -2,6 +2,12 @@
 
 A comprehensive automation platform for managing Meta (Facebook) advertising campaigns with custom rule-based automation, real-time monitoring, and intelligent action execution.
 
+## 🎥 Demo Video
+
+[![Meta Ads Automation System Demo](https://img.youtube.com/vi/IhHgVlW-oLg/maxresdefault.jpg)](https://www.youtube.com/watch?v=IhHgVlW-oLg)
+
+**[🎬 Watch the Live Demo](https://www.youtube.com/watch?v=IhHgVlW-oLg)** - See the automation system in action with real campaign data and live rule execution.
+
 ## 🎯 Features
 
 ### ✅ Core Requirements
@@ -50,12 +56,19 @@ cd koast-ai-chlng
 npm install
 ```
 
-2. **Start development server:**
+2. **Environment setup:**
+Create a `.env.local` file in the project root:
+```bash
+# Meta Ads API Configuration
+META_ADS_BEARER_TOKEN=7FcUS8sCTBDGE4EaScY5CEsIAoe9dTJLwIzV4gGM3BY7dz1
+```
+
+3. **Start development server:**
 ```bash
 npm run dev
 ```
 
-3. **Open browser:**
+4. **Open browser:**
 Navigate to `http://localhost:3000`
 
 ## 📊 API Integration
@@ -65,7 +78,7 @@ The application uses the provided Meta Ads API proxy:
 ```typescript
 const META_ADS_CONFIG = {
   baseUrl: 'https://dev-api.adcopy.ai/challenge-proxy/meta',
-  bearerToken: '7FcUS8sCTBDGE4EaScY5CEsIAoe9dTJLwIzV4gGM3BY7dz1',
+  bearerToken: process.env.META_ADS_BEARER_TOKEN,
   sampleCampaignId: '120225449479650554'
 };
 ```
